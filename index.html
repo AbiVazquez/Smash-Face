@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	  <meta charset="UTF-8">
+	  <title>Smash Faces</title>
+	  
+	   <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+	   <link rel="stylesheet" href="css/main.css">
+	   <link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700' rel='stylesheet' type='text/css'>
+	</head>
+	<body>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				<h1>Smash Faces</h1>
+			</div>
+		</div>
+	</div>
+	<!-- INSTRUCCIONES -->
+	<div class="container">
+		<div class="row">
+			<div class="col-md-2"></div>
+			<div class="col-md-8">
+				<p class="text-center">Bienvenidas al juego de Smash Faces, tu misión es poder identificar a todas tus compañeras de clase ingresando para ellos su nombre. Tienes 5 oportunidades antes de perder 1 punto y pasar a la siguiente.</p>
+			</div>
+			<div class="col-md-2"></div>
+		</div>
+	</div>
+	<!-- SEDE Y PUNTAJE -->
+	<div class="container" id="puntaje">
+		<div class="row">
+			<div class="col-md-3" >
+				<h2 class="h2">Elige tu sede:</h2>
+			</div>
+			<div class="col-md-5 form-group">
+				<select class="sede form-control" id="elegir">
+				  <option value="0"></option>
+				  <option value="Mexico">México</option>
+				  <option value="Peru">Perú</option>
+				  <option value="Chile">Chile</option>
+				</select>
+			</div>
+			<div class="col-md-4">
+				<h2 class="puntos">Puntos: <span>  </span>  puntos</h2>
+			</div>
+		</div>
+	</div>
+	<!-- ALUMNAS -->
+	<div class="container" id="contenedorJuego">
+		<div class="row">
+			<div class="col-md-6">
+				<img id="imagenPersona" src="fotos/Paty.JPG" class="img-responsive">
+			</div>
+			<div class="col-md-6">
+				<input type="text" class="form-control" id="inputNombre">
+				 <button type="button" class="btn btn-primary" id="btnRevisar">Comprobar</button>
+				 <p class="nota">*Recuarda iniciar el nombre con mayuscula</p>
+			</div>
+		</div>
+	</div>
+
+		<script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+		<script src="js/bootstrap.min.js"></script> 
+		<script src="js/main.js"></script>
+	</body>
+</html>

@@ -1,0 +1,52 @@
+body{
+	font-family: Open Sans Condensed;
+	background-color: #a8e6cf;
+}
+h1{
+	font-size: 40px;
+	font-weight: bold;
+	text-align: center;
+	color: #ff8b94;
+}
+p{
+	font-size: 21px;
+	color: #8561b2;
+}
+#puntaje{
+	color: #8561b2;
+}
+.puntos{
+	background-color: #f4f3f3;
+	text-align: center;
+	border-radius: 10px;
+	height: 40px;
+}
+.sede{
+	margin-top: 4%;
+	margin-right: 20%;
+	width: 60%;
+	height: 40px;
+	font-size: 17px;
+	border:2px solid #00d2ea;
+}
+.btn{
+	margin-top: 5%;
+	font-size: 15px;
+}
+#contenedorJuego{
+	margin-top: 3%;
+	background-color: #f4f3f3;
+	padding: 3%;
+	border-radius: 10px;
+}
+#imagenPersona{
+	width: 85%;
+}
+#inputNombre{
+	margin-top: 10%;
+	font-size: 20px;
+	border:2px solid #00d2ea;
+}
+.nota{
+	margin-top: 10%;
+}
